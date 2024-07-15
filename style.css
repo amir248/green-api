@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:linear-gradient(rgba(50,255,5,0.1),rgba(100,255,100,0.3));
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-width:900px;
+}
+main{
+    width:100%;
+    max-width:900px;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+main > img{
+    width:100%;
+    max-width:900px;
+}
